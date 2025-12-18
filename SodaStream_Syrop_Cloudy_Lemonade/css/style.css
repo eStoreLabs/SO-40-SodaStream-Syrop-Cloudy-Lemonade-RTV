@@ -116,7 +116,7 @@
 
 #es-sodastream.es-sodastream .es-possibilities {
     background-color: #ebe6e1;
-    background-image: url(../img/posibilites.png);
+    background-image: url(../img/posibilites.webp);
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,8 +226,6 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
-    padding-top: 180px;
-    margin-top: -280px
 }
 
 #es-sodastream.es-sodastream .es-set__img {
@@ -685,7 +683,7 @@
     position: absolute;
     width: 34px;
     height: 34px;
-    bottom: 35%;
+    top: calc(50% - 17px);
     right: 5%
 }
 
@@ -693,7 +691,7 @@
     position: absolute;
     width: 34px;
     height: 34px;
-    top: 35%;
+    top: calc(50% - 17px);
     left: 20px
 }
 
@@ -740,7 +738,7 @@
 @media (min-width: 700px) {
     #es-sodastream.es-sodastream .es-kv {
         background-color: #ebe6e1;
-        background-image: url(../img/kv-bg.png);
+        background-image: url(../img/kv-bg.webp);
         background-position: 0 20%;
         background-repeat: no-repeat;
         background-size: 100% 90%;
@@ -849,6 +847,7 @@
     }
 
     #es-sodastream.es-sodastream .es-slider__slide {
+        height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center
@@ -943,9 +942,14 @@
 }
 
 @media (min-width: 900px) {
+    #es-sodastream.es-sodastream .es-set {
+        padding-top: 180px;
+        margin-top: -280px;
+    }
+
     #es-sodastream.es-sodastream .es-kv {
         background-color: #ede7e2;
-        background-image: url(../img/kv-bg.png);
+        background-image: url(../img/kv-bg.webp);
         background-position: 80% 20%;
         background-repeat: no-repeat;
         padding: 20px 20px 0;
